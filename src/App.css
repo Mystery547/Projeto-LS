@@ -1,42 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+body {
+  font-family: 'Rye', cursive !important;
+}
+
 .App {
   text-align: center;
+  background-color: rgb(224, 224, 224);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#bg-top {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: url('./images/middle-earth.jpg');
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#image-arda {
+  max-height: 550px;
+  margin-bottom: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
+#main-content {
+  margin: auto 5px;
+  border-top: 2px solid black;
 }
