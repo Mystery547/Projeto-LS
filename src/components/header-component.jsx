@@ -9,6 +9,7 @@ function HeaderComponent() {
       <Navbar.Brand href="#home">Senhor dos Anéis</Navbar.Brand>
       <Nav className="me-auto">
         <Nav.Link href="#home">Início</Nav.Link>
+        <Nav.Link href="#home">Login</Nav.Link>
       </Nav>
       </Container>
     </Navbar>

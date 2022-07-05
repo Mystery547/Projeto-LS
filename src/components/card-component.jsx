@@ -63,4 +63,4 @@ function CardComponent() {
   )
 }
 
-export default CarouselComponent;
+export default CardComponent;
