@@ -3,7 +3,7 @@ import tolkien from './images/tolkien.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Image} from 'react-bootstrap';
 import HeaderComponent from './components/header-component';
-import CarouselComponent from './components/card-component';
+import CardComponent from './components/card-component';
 import './App.css';
 
 function App() {
